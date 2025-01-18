@@ -50,7 +50,7 @@ body {
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 .card-img-top {
-    max-height: 500px;
+    max-height: 300px;
 }
 .img-portion {
     width: 300px;

@@ -48,7 +48,7 @@ body {
 
 .card {
     text-align: center; /* Centers text inside the card */
-    margin: 30px; /* Adds space between cards */
+    margin: 20px; /* Adds space between cards */
     border: 2px solid #007bff; /* Adds a blue border */
     border-radius: 8px; /* Rounds the corners */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
@@ -69,8 +69,8 @@ body {
 }
 
 .img-portion {
-    width: 100px;
-	height: 100px;
+    width: 200px;
+	height: 200px;
 	display: block;
 }
 

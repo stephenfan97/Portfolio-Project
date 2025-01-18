@@ -52,20 +52,12 @@ body {
 .card-img-top {
     max-height: 500px;
 }
-.gif-portion {
-    width: 500px;
-	height: 500px;
-	display: none;
+.img-portion {
+    width: 400px;
+	height: 400px;
+	display: block;
 }
 
-@media screen and (min-width: 575px) {
-.gif-portion {
-    display: block;
-    }
-.img-portion {
-    display: none;
-    }
-}
 
 
 /*===========
@@ -79,3 +71,80 @@ body {
     background: none;
     font-weight: bold;
 }
+
+/*=================
+    About Me Photo
+===================*/
+
+.about-me img {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px; /* Adds spacing for smaller screens */
+}
+.about-me p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/*=================
+    contact
+===================*/
+
+#contact-section {
+    background-color: #f8f9fa;
+    padding: 30px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#contact-section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact-section a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/*=================
+    Inquiry
+===================*/
+
+#reach-out-section {
+    background-color: #f8f9fa;
+    padding: 30px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#reach-out-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#reach-out-section .form-control {
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+
+#reach-out-section .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#reach-out-section .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+

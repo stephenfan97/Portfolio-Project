@@ -53,8 +53,8 @@ body {
     max-height: 500px;
 }
 .img-portion {
-    width: 400px;
-	height: 400px;
+    width: 300px;
+	height: 300px;
 	display: block;
 }
 
@@ -77,9 +77,12 @@ body {
 ===================*/
 
 .about-me img {
+    max-width: 100%;
+    width: 35mm;
+    height: 50mm;
+    object-fit: cover;
     border-radius: 8px;
     border: 1px solid #ddd;
-    margin-bottom: 20px; /* Adds spacing for smaller screens */
 }
 .about-me p {
     font-size: 1.1rem;
